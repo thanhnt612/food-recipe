@@ -118,7 +118,11 @@ header {
   font-size: 20px;
 }
 .header .page-active {
-  color: #ff6600 !important;
+  color: #ff6600!important;
+}
+.header .page-active-mobile {
+  background-color: #000 !important;
+  color: #ff6600;
 }
 .header .navbar-toggler {
   background-color: transparent;
@@ -881,5 +885,8 @@ footer .license .special:hover {
   }
   .testimonial .carousel-inner .comment p {
     font-size: 15px;
+  }
+  .offcanvas-end{
+    width: 300px !important;
   }
 }

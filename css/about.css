@@ -92,7 +92,11 @@ header {
   padding: 0 5px;
 }
 .header .page-active {
-  color: #ff6600 !important;
+  color: #ff6600!important;
+}
+.header .page-active-mobile {
+  background-color: #000 !important;
+  color: #ff6600;
 }
 .header .navbar-toggler {
   background-color: transparent;
@@ -527,5 +531,8 @@ footer .license .special:hover {
 @media screen and (max-width: 390px) {
   .header .header-right {
     line-height: 50px;
+  }
+  .offcanvas-end{
+    width: 300px !important;
   }
 }
